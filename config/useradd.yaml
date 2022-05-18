@@ -1,0 +1,27 @@
+-
+  url: http://localhost:8080/InterfaceProject/adduser
+  method: post
+  para_type: json
+  data:
+    username: admin
+    password: admin
+    grade: 1
+  except: 用户添加成功！
+-
+  url: http://localhost:8080/InterfaceProject/adduser
+  method: post
+  para_type: json
+  data:
+    username: ''
+    password: admin
+    grade: 1
+  except: 用户名称必填项！
+-
+  url: http://localhost:8080/InterfaceProject/adduser
+  method: post
+  para_type: json
+  data:
+    username: admin
+    password: ''
+    grade: 1
+  except: 用户密码必填项！

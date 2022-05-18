@@ -1,0 +1,117 @@
+{
+  "uid" : "6f28993743264e0",
+  "name" : "test_useraddsuccess[useradddata2]",
+  "fullName" : "test_yongli.test_useradd.Test_useradd#test_useraddsuccess",
+  "historyId" : "9a9a86768ec33b2c4cff355dc8eddacb",
+  "time" : {
+    "start" : 1652853288958,
+    "stop" : 1652853288963,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_useradd",
+    "time" : {
+      "start" : 1652853288957,
+      "stop" : 1652853288958,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_useradd::0",
+    "time" : {
+      "start" : 1652853288965,
+      "stop" : 1652853288965,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_yongli"
+  }, {
+    "name" : "suite",
+    "value" : "test_useradd"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_useradd"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-IRAQECA9"
+  }, {
+    "name" : "thread",
+    "value" : "21244-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_yongli.test_useradd"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "useradddata",
+    "value" : "{'url': 'http://localhost:8080/InterfaceProject/adduser', 'method': 'post', 'para_type': 'json', 'data': {'username': 'admin', 'password': '', 'grade': 1}, 'except': '用户密码必填项！'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2777006c8ddc9f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652853180897,
+        "stop" : 1652853180903,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "f647f04453497dab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652853082757,
+        "stop" : 1652853082762,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "27bf72859de94067",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652852866287,
+        "stop" : 1652852866296,
+        "duration" : 9
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6f28993743264e0.json",
+  "parameterValues" : [ "{'url': 'http://localhost:8080/InterfaceProject/adduser', 'method': 'post', 'para_type': 'json', 'data': {'username': 'admin', 'password': '', 'grade': 1}, 'except': '用户密码必填项！'}" ]
+}

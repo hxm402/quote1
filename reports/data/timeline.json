@@ -1,0 +1,539 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-IRAQECA9",
+    "children" : [ {
+      "name" : "8752-MainThread",
+      "children" : [ {
+        "name" : "test_useraddsuccess[useradddata0]",
+        "uid" : "c29d9ab5519b554d",
+        "parentUid" : "2025e7a52a0b17d33b71aced5374856b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652853180874,
+          "stop" : 1652853180879,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/adduser', 'method': 'post', 'para_type': 'json', 'data': {'username': 'admin', 'password': 'admin', 'grade': 1}, 'except': '用户添加成功！'}" ]
+      }, {
+        "name" : "test_useraddsuccess[useradddata1]",
+        "uid" : "ba9bf1d9dc85c66e",
+        "parentUid" : "2025e7a52a0b17d33b71aced5374856b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652853180886,
+          "stop" : 1652853180891,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/adduser', 'method': 'post', 'para_type': 'json', 'data': {'username': '', 'password': 'admin', 'grade': 1}, 'except': '用户名称必填项！'}" ]
+      }, {
+        "name" : "test_useraddsuccess[useradddata2]",
+        "uid" : "2777006c8ddc9f3",
+        "parentUid" : "2025e7a52a0b17d33b71aced5374856b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652853180897,
+          "stop" : 1652853180903,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/adduser', 'method': 'post', 'para_type': 'json', 'data': {'username': 'admin', 'password': '', 'grade': 1}, 'except': '用户密码必填项！'}" ]
+      }, {
+        "name" : "test_01[udata2]",
+        "uid" : "a0db61363a4e11c7",
+        "parentUid" : "2025e7a52a0b17d33b71aced5374856b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652853180865,
+          "stop" : 1652853180868,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/login', 'method': 'post', 'para_type': 'json', 'data': {'username': 755, 'password': ''}, 'except': '密码不能为空'}" ]
+      }, {
+        "name" : "test_01[udata1]",
+        "uid" : "c64b70fc08e90f4e",
+        "parentUid" : "2025e7a52a0b17d33b71aced5374856b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652853180857,
+          "stop" : 1652853180861,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/login', 'method': 'post', 'para_type': 'json', 'data': {'username': '', 'password': 455}, 'except': '用户名不能为空'}" ]
+      }, {
+        "name" : "test_01[udata0]",
+        "uid" : "369c52c8a127fce8",
+        "parentUid" : "2025e7a52a0b17d33b71aced5374856b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652853180845,
+          "stop" : 1652853180854,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/login', 'method': 'post', 'para_type': 'json', 'data': {'username': 755, 'password': 445}, 'except': '登录成功！'}" ]
+      } ],
+      "uid" : "2025e7a52a0b17d33b71aced5374856b"
+    }, {
+      "name" : "19412-MainThread",
+      "children" : [ {
+        "name" : "test_01[udata2]",
+        "uid" : "738cf070386e4ffa",
+        "parentUid" : "2a495f8ce78310dd54a16a948174fc33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652853082720,
+          "stop" : 1652853082730,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/login', 'method': 'post', 'para_type': 'json', 'data': {'username': 755, 'password': ''}, 'except': '密码不能为空'}" ]
+      }, {
+        "name" : "test_useraddsuccess[useradddata1]",
+        "uid" : "f56f61af6d67ec15",
+        "parentUid" : "2a495f8ce78310dd54a16a948174fc33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652853082745,
+          "stop" : 1652853082751,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/adduser', 'method': 'post', 'para_type': 'json', 'data': {'username': '', 'password': 'admin', 'grade': 1}, 'except': '用户名称必填项！'}" ]
+      }, {
+        "name" : "test_useraddsuccess[useradddata2]",
+        "uid" : "f647f04453497dab",
+        "parentUid" : "2a495f8ce78310dd54a16a948174fc33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652853082757,
+          "stop" : 1652853082762,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/adduser', 'method': 'post', 'para_type': 'json', 'data': {'username': 'admin', 'password': '', 'grade': 1}, 'except': '用户密码必填项！'}" ]
+      }, {
+        "name" : "test_01[udata1]",
+        "uid" : "5247a75b437a4250",
+        "parentUid" : "2a495f8ce78310dd54a16a948174fc33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652853082713,
+          "stop" : 1652853082716,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/login', 'method': 'post', 'para_type': 'json', 'data': {'username': '', 'password': 455}, 'except': '用户名不能为空'}" ]
+      }, {
+        "name" : "test_useraddsuccess[useradddata0]",
+        "uid" : "6b0d7ae242a6cd57",
+        "parentUid" : "2a495f8ce78310dd54a16a948174fc33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652853082734,
+          "stop" : 1652853082740,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/adduser', 'method': 'post', 'para_type': 'json', 'data': {'username': 'admin', 'password': 'admin', 'grade': 1}, 'except': '用户添加成功！'}" ]
+      }, {
+        "name" : "test_01[udata0]",
+        "uid" : "dfe6150928aa5b6",
+        "parentUid" : "2a495f8ce78310dd54a16a948174fc33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652853082699,
+          "stop" : 1652853082709,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/login', 'method': 'post', 'para_type': 'json', 'data': {'username': 755, 'password': 445}, 'except': '登录成功！'}" ]
+      } ],
+      "uid" : "2a495f8ce78310dd54a16a948174fc33"
+    }, {
+      "name" : "21244-MainThread",
+      "children" : [ {
+        "name" : "test_01[udata2]",
+        "uid" : "248f834b17deb334",
+        "parentUid" : "98f2ccd23a20037bda3cb26f67b9f3dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652853288931,
+          "stop" : 1652853288934,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/login', 'method': 'post', 'para_type': 'json', 'data': {'username': 755, 'password': ''}, 'except': '密码不能为空'}" ]
+      }, {
+        "name" : "test_useraddsuccess[useradddata1]",
+        "uid" : "c5eec524a5d23fed",
+        "parentUid" : "98f2ccd23a20037bda3cb26f67b9f3dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652853288949,
+          "stop" : 1652853288953,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/adduser', 'method': 'post', 'para_type': 'json', 'data': {'username': '', 'password': 'admin', 'grade': 1}, 'except': '用户名称必填项！'}" ]
+      }, {
+        "name" : "test_useraddsuccess[useradddata0]",
+        "uid" : "6d8f0182923eb31f",
+        "parentUid" : "98f2ccd23a20037bda3cb26f67b9f3dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652853288939,
+          "stop" : 1652853288944,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/adduser', 'method': 'post', 'para_type': 'json', 'data': {'username': 'admin', 'password': 'admin', 'grade': 1}, 'except': '用户添加成功！'}" ]
+      }, {
+        "name" : "test_useraddsuccess[useradddata2]",
+        "uid" : "6f28993743264e0",
+        "parentUid" : "98f2ccd23a20037bda3cb26f67b9f3dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652853288958,
+          "stop" : 1652853288963,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/adduser', 'method': 'post', 'para_type': 'json', 'data': {'username': 'admin', 'password': '', 'grade': 1}, 'except': '用户密码必填项！'}" ]
+      }, {
+        "name" : "test_01[udata1]",
+        "uid" : "ce6214b34ba1ebc",
+        "parentUid" : "98f2ccd23a20037bda3cb26f67b9f3dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652853288923,
+          "stop" : 1652853288927,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/login', 'method': 'post', 'para_type': 'json', 'data': {'username': '', 'password': 455}, 'except': '用户名不能为空'}" ]
+      }, {
+        "name" : "test_01[udata0]",
+        "uid" : "69ed47b49e30404d",
+        "parentUid" : "98f2ccd23a20037bda3cb26f67b9f3dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652853288911,
+          "stop" : 1652853288920,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/login', 'method': 'post', 'para_type': 'json', 'data': {'username': 755, 'password': 445}, 'except': '登录成功！'}" ]
+      } ],
+      "uid" : "98f2ccd23a20037bda3cb26f67b9f3dd"
+    }, {
+      "name" : "18672-MainThread",
+      "children" : [ {
+        "name" : "test_01[udata0]",
+        "uid" : "51d906f91adb0fe3",
+        "parentUid" : "3345ad76d0b293811e65c50283be36b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652852794547,
+          "stop" : 1652852794556,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/login', 'method': 'post', 'para_type': 'json', 'data': {'username': 755, 'password': 445}, 'except': '登录成功！'}" ]
+      }, {
+        "name" : "test_01[udata1]",
+        "uid" : "f3332a578a2c3654",
+        "parentUid" : "3345ad76d0b293811e65c50283be36b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652852794559,
+          "stop" : 1652852794563,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/login', 'method': 'post', 'para_type': 'json', 'data': {'username': '', 'password': 455}, 'except': '用户名不能为空'}" ]
+      }, {
+        "name" : "test_useraddsuccess[useradddata0]",
+        "uid" : "7650b07158732359",
+        "parentUid" : "3345ad76d0b293811e65c50283be36b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652852794574,
+          "stop" : 1652852794579,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/adduser', 'method': 'post', 'para_type': 'json', 'data': {'username': 'admin', 'password': 'admin', 'grade': 1}, 'except': '用户添加成功！'}" ]
+      }, {
+        "name" : "test_useraddsuccess[useradddata2]",
+        "uid" : "d9fc305624d2c835",
+        "parentUid" : "3345ad76d0b293811e65c50283be36b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652852794594,
+          "stop" : 1652852794598,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/adduser', 'method': 'post', 'para_type': 'json', 'data': {'username': 'admin', 'password': '', 'grade': 1}, 'except': '用户密码必填项！'}" ]
+      }, {
+        "name" : "test_01[udata2]",
+        "uid" : "d1b957eebb5da32d",
+        "parentUid" : "3345ad76d0b293811e65c50283be36b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652852794566,
+          "stop" : 1652852794570,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/login', 'method': 'post', 'para_type': 'json', 'data': {'username': 755, 'password': ''}, 'except': '密码不能为空'}" ]
+      }, {
+        "name" : "test_useraddsuccess[useradddata1]",
+        "uid" : "d2ab249a4a42379",
+        "parentUid" : "3345ad76d0b293811e65c50283be36b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652852794584,
+          "stop" : 1652852794589,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/adduser', 'method': 'post', 'para_type': 'json', 'data': {'username': '', 'password': 'admin', 'grade': 1}, 'except': '用户名称必填项！'}" ]
+      } ],
+      "uid" : "3345ad76d0b293811e65c50283be36b0"
+    }, {
+      "name" : "13784-MainThread",
+      "children" : [ {
+        "name" : "test_01[udata0]",
+        "uid" : "d2e60d3184d7d118",
+        "parentUid" : "473b376e4d0f1c4d7a3bf9bd6580284f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652852866177,
+          "stop" : 1652852866197,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/login', 'method': 'post', 'para_type': 'json', 'data': {'username': 755, 'password': 445}, 'except': '登录成功！'}" ]
+      }, {
+        "name" : "test_useraddsuccess[useradddata0]",
+        "uid" : "99a6d683d1256dd7",
+        "parentUid" : "473b376e4d0f1c4d7a3bf9bd6580284f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652852866243,
+          "stop" : 1652852866254,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/adduser', 'method': 'post', 'para_type': 'json', 'data': {'username': 'admin', 'password': 'admin', 'grade': 1}, 'except': '用户添加成功！'}" ]
+      }, {
+        "name" : "test_useraddsuccess[useradddata2]",
+        "uid" : "27bf72859de94067",
+        "parentUid" : "473b376e4d0f1c4d7a3bf9bd6580284f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652852866287,
+          "stop" : 1652852866296,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/adduser', 'method': 'post', 'para_type': 'json', 'data': {'username': 'admin', 'password': '', 'grade': 1}, 'except': '用户密码必填项！'}" ]
+      }, {
+        "name" : "test_01[udata1]",
+        "uid" : "58c343560538b54b",
+        "parentUid" : "473b376e4d0f1c4d7a3bf9bd6580284f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652852866205,
+          "stop" : 1652852866214,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/login', 'method': 'post', 'para_type': 'json', 'data': {'username': '', 'password': 455}, 'except': '用户名不能为空'}" ]
+      }, {
+        "name" : "test_01[udata2]",
+        "uid" : "80591d49cc9ef65f",
+        "parentUid" : "473b376e4d0f1c4d7a3bf9bd6580284f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652852866223,
+          "stop" : 1652852866232,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/login', 'method': 'post', 'para_type': 'json', 'data': {'username': 755, 'password': ''}, 'except': '密码不能为空'}" ]
+      }, {
+        "name" : "test_useraddsuccess[useradddata1]",
+        "uid" : "d7bcde75f5e5bdbc",
+        "parentUid" : "473b376e4d0f1c4d7a3bf9bd6580284f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652852866265,
+          "stop" : 1652852866275,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'http://localhost:8080/InterfaceProject/adduser', 'method': 'post', 'para_type': 'json', 'data': {'username': '', 'password': 'admin', 'grade': 1}, 'except': '用户名称必填项！'}" ]
+      } ],
+      "uid" : "473b376e4d0f1c4d7a3bf9bd6580284f"
+    } ],
+    "uid" : "f5ec83d25361721633298fa4356f4619"
+  } ]
+}

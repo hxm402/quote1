@@ -1,0 +1,91 @@
+{
+  "uid" : "d7bcde75f5e5bdbc",
+  "name" : "test_useraddsuccess[useradddata1]",
+  "fullName" : "test_yongli.test_useradd.Test_useradd#test_useraddsuccess",
+  "historyId" : "ccbe32e9473e44e0b03c2645b2b3dc07",
+  "time" : {
+    "start" : 1652852866265,
+    "stop" : 1652852866275,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_useradd",
+    "time" : {
+      "start" : 1652852866263,
+      "stop" : 1652852866264,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_useradd::0",
+    "time" : {
+      "start" : 1652852866279,
+      "stop" : 1652852866279,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_yongli"
+  }, {
+    "name" : "suite",
+    "value" : "test_useradd"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_useradd"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-IRAQECA9"
+  }, {
+    "name" : "thread",
+    "value" : "13784-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_yongli.test_useradd"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "useradddata",
+    "value" : "{'url': 'http://localhost:8080/InterfaceProject/adduser', 'method': 'post', 'para_type': 'json', 'data': {'username': '', 'password': 'admin', 'grade': 1}, 'except': '用户名称必填项！'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d7bcde75f5e5bdbc.json",
+  "parameterValues" : [ "{'url': 'http://localhost:8080/InterfaceProject/adduser', 'method': 'post', 'para_type': 'json', 'data': {'username': '', 'password': 'admin', 'grade': 1}, 'except': '用户名称必填项！'}" ]
+}

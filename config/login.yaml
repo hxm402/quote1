@@ -1,0 +1,24 @@
+-
+  url: http://localhost:8080/InterfaceProject/login
+  method: post
+  para_type: json
+  data:
+    username: 755
+    password: 445
+  except: 登录成功！
+-
+  url: http://localhost:8080/InterfaceProject/login
+  method: post
+  para_type: json
+  data:
+    username: ''
+    password: 455
+  except:  用户名不能为空
+-
+  url: http://localhost:8080/InterfaceProject/login
+  method: post
+  para_type: json
+  data:
+    username: 755
+    password: ''
+  except: 密码不能为空

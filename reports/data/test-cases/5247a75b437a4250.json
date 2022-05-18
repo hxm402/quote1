@@ -1,0 +1,91 @@
+{
+  "uid" : "5247a75b437a4250",
+  "name" : "test_01[udata1]",
+  "fullName" : "test_yongli.test_login.Test_login#test_01",
+  "historyId" : "cde0ae471e8d8bf498ff121442af80b2",
+  "time" : {
+    "start" : 1652853082713,
+    "stop" : 1652853082716,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_login",
+    "time" : {
+      "start" : 1652853082698,
+      "stop" : 1652853082698,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_login::0",
+    "time" : {
+      "start" : 1652853082731,
+      "stop" : 1652853082731,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_yongli"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_login"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-IRAQECA9"
+  }, {
+    "name" : "thread",
+    "value" : "19412-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_yongli.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "udata",
+    "value" : "{'url': 'http://localhost:8080/InterfaceProject/login', 'method': 'post', 'para_type': 'json', 'data': {'username': '', 'password': 455}, 'except': '用户名不能为空'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5247a75b437a4250.json",
+  "parameterValues" : [ "{'url': 'http://localhost:8080/InterfaceProject/login', 'method': 'post', 'para_type': 'json', 'data': {'username': '', 'password': 455}, 'except': '用户名不能为空'}" ]
+}
